@@ -10,7 +10,6 @@
 
 @implementation FirebaseManager
 
-
 #pragma mark Singleton Methods
 
 + (id)sharedFirebaseManager {
@@ -30,11 +29,6 @@
 }
 -(void)setupDatabase{
     [FIRApp configure];
-    [[FIRAuth auth] signInAnonymouslyWithCompletion:^(FIRUser *_Nullable user, NSError *_Nullable error) {
-         if(error != nil){
-         }
-     }];
-    
 }
 
 -(void) prepareFileUpload: (FIRStorageReference * ) folderStorage :(NSString * ) fileName withExtension: (NSString * ) fileExtension andDataSource:(NSData * ) dataSource {

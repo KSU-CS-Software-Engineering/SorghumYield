@@ -10,6 +10,7 @@
 #import <CoreData/CoreData.h>
 @import Firebase;
 
+
 /**
  Class responsible for controlling firebase connections
  */

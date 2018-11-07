@@ -10,6 +10,7 @@
 #import "IntroViewController.h"
 #import "DataController.h"
 #import "FirebaseManager.h"
+@import Firebase;
 @interface AppDelegate ()
 
 @property (strong, nonatomic) DataController *dataController;
@@ -22,15 +23,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    [FIRApp configure];
+    FIRFirestore *defaultFirestore = [FIRFirestore firestore];
+    
     [self setDataController:[[DataController alloc]init]];
     
     UINavigationController * nVC = (UINavigationController *) self.window.rootViewController;
     IntroViewController  * vc = (IntroViewController *)nVC.topViewController;
     NSManagedObjectContext * coreDataContext = [[self dataController] managedObjectContext];
     vc.managedObject = [NSEntityDescription insertNewObjectForEntityForName:@"FieldMeasurement" inManagedObjectContext: coreDataContext];
- 
-    
-    [[FirebaseManager sharedFirebaseManager]  setupDatabase];
     return YES;
 }
 

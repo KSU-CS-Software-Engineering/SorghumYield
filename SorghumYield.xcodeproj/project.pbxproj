@@ -11,7 +11,7 @@
 		4B3582741DE79C63008DE1BD /* StateCounties.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4B3582731DE79C63008DE1BD /* StateCounties.csv */; };
 		4B3582771DE79C9A008DE1BD /* CountryList.csv in Resources */ = {isa = PBXBuildFile; fileRef = 4B3582761DE79C9A008DE1BD /* CountryList.csv */; };
 		4B35827A1DE79CC9008DE1BD /* GeoDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3582791DE79CC9008DE1BD /* GeoDataLoader.m */; };
-		4B394E131DEA3D39004C5E1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B394E121DEA3D39004C5E1A /* GoogleService-Info.plist */; };
+		4B394E131DEA3D39004C5E1A /* old-GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B394E121DEA3D39004C5E1A /* old-GoogleService-Info.plist */; };
 		4B394E161DEA3D8F004C5E1A /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B394E151DEA3D8F004C5E1A /* FirebaseManager.m */; };
 		4B4961331DE63EFA0085D4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4961321DE63EFA0085D4FE /* main.m */; };
 		4B4961361DE63EFA0085D4FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4961351DE63EFA0085D4FE /* AppDelegate.m */; };
@@ -32,6 +32,7 @@
 		4B806B921DE65E3E00768A09 /* FieldDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B806B911DE65E3E00768A09 /* FieldDataViewController.m */; };
 		4B806B961DE6613200768A09 /* UITextField+TFCustomization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B806B951DE6613200768A09 /* UITextField+TFCustomization.m */; };
 		8D2B816F578FA08401954543 /* libPods-SorghumYield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981273769D6F9A09CC957E7 /* libPods-SorghumYield.a */; };
+		E8CEF7E82177C6C30056690C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8CEF7E72177C6C30056690C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +44,7 @@
 		4B3582761DE79C9A008DE1BD /* CountryList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CountryList.csv; path = SorghumYield/CountryList.csv; sourceTree = "<group>"; };
 		4B3582781DE79CC9008DE1BD /* GeoDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoDataLoader.h; path = SorghumYield/GeoDataLoader.h; sourceTree = "<group>"; };
 		4B3582791DE79CC9008DE1BD /* GeoDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoDataLoader.m; path = SorghumYield/GeoDataLoader.m; sourceTree = "<group>"; };
-		4B394E121DEA3D39004C5E1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B394E121DEA3D39004C5E1A /* old-GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "old-GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4B394E141DEA3D8F004C5E1A /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseManager.h; path = SorghumYield/FirebaseManager.h; sourceTree = "<group>"; };
 		4B394E151DEA3D8F004C5E1A /* FirebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirebaseManager.m; path = SorghumYield/FirebaseManager.m; sourceTree = "<group>"; };
 		4B49612E1DE63EFA0085D4FE /* SorghumYield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SorghumYield.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +82,7 @@
 		4B806B941DE660C300768A09 /* UITextField+TFCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+TFCustomization.h"; path = "SorghumYield/UITextField+TFCustomization.h"; sourceTree = "<group>"; };
 		4B806B951DE6613200768A09 /* UITextField+TFCustomization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TFCustomization.m"; path = "SorghumYield/UITextField+TFCustomization.m"; sourceTree = "<group>"; };
 		582259220ED452102DAAD6B9 /* Pods-SorghumYield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SorghumYield.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SorghumYield/Pods-SorghumYield.debug.xcconfig"; sourceTree = "<group>"; };
+		E8CEF7E72177C6C30056690C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FFECF1517F7E3C44C711BE11 /* Pods-SorghumYield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SorghumYield.release.xcconfig"; path = "Pods/Target Support Files/Pods-SorghumYield/Pods-SorghumYield.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 		4B4961301DE63EFA0085D4FE /* SorghumYield */ = {
 			isa = PBXGroup;
 			children = (
+				E8CEF7E72177C6C30056690C /* GoogleService-Info.plist */,
 				4B6103871DEB356E009C9661 /* SorghumYield.entitlements */,
 				4B49614F1DE648FE0085D4FE /* Convenience */,
 				4B4961571DE6510A0085D4FE /* ViewControllers */,
@@ -155,7 +158,7 @@
 				4B4961401DE63EFA0085D4FE /* Assets.xcassets */,
 				4B4961421DE63EFA0085D4FE /* LaunchScreen.storyboard */,
 				4B4961451DE63EFA0085D4FE /* Info.plist */,
-				4B394E121DEA3D39004C5E1A /* GoogleService-Info.plist */,
+				4B394E121DEA3D39004C5E1A /* old-GoogleService-Info.plist */,
 				4B4961311DE63EFA0085D4FE /* Supporting Files */,
 			);
 			path = SorghumYield;
@@ -316,7 +319,7 @@
 		4B4961261DE63EFA0085D4FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Robert Sebek";
 				TargetAttributes = {
 					4B49612D1DE63EFA0085D4FE = {
@@ -357,10 +360,11 @@
 			files = (
 				4B3582741DE79C63008DE1BD /* StateCounties.csv in Resources */,
 				4B4961441DE63EFA0085D4FE /* LaunchScreen.storyboard in Resources */,
+				E8CEF7E82177C6C30056690C /* GoogleService-Info.plist in Resources */,
 				4B3582771DE79C9A008DE1BD /* CountryList.csv in Resources */,
 				4B4961411DE63EFA0085D4FE /* Assets.xcassets in Resources */,
 				4B49613C1DE63EFA0085D4FE /* Main.storyboard in Resources */,
-				4B394E131DEA3D39004C5E1A /* GoogleService-Info.plist in Resources */,
+				4B394E131DEA3D39004C5E1A /* old-GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,9 +377,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SorghumYield/Pods-SorghumYield-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -388,9 +397,32 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SorghumYield/Pods-SorghumYield-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,13 +435,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SorghumYield-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -471,15 +506,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -519,15 +563,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -563,7 +616,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SorghumYield/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bap.SorghumYield;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.ksu.sorghum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SorghumYield-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -582,7 +635,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SorghumYield/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bap.SorghumYield;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cs.ksu.sorghum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SorghumYield-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
